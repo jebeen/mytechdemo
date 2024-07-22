@@ -1,0 +1,46 @@
+body {
+    background-color: #ccc;
+}
+.container {
+    width: 500px;
+    border: 2px solid #658D95;
+    background-color: bisque;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    box-shadow: 10px 10px;
+    border-radius: 6px;
+}
+.heading {
+    background-color: #658D95;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    
+}
+.footer {
+    background-color: #6459a5;
+    color: white;
+    margin: 3px;
+}
+.dashboard {
+    margin: 20px;
+}
+.formfield {
+    color: red;
+}
+#resp, .error {
+    background-color: #ccc;
+    padding: 5px;
+    color : red;
+}
+#editstudent {
+position: absolute;
+top: -30px;
+}
+.dashboard-header {
+    padding: 6px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}
