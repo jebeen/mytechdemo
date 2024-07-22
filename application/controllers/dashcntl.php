@@ -124,7 +124,7 @@ class Dashcntl extends CI_Controller {
             }
             $query = $this->db->get();
             $totalFiltered=$query->row()->total;
-            $response['recordsTotel'] = $totalRecords;
+            $response['recordsTotal'] = $totalRecords;
             $response['recordsFiltered'] = $totalFiltered;
             $response['data'] = $tblData;
 
